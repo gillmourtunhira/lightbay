@@ -11,8 +11,59 @@ html,body{
 	display: grid;
 	width: 1160px;
 	margin: 0 auto;
-	height: 100px;
-	background-color: #3a99ff;
+	grid-template-columns: 1fr 1fr;
+	div{
+		color: #334141;
+		font-family: "Open Sans",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+		ul{
+			float: right;
+			margin: 10px 0px;
+			li{
+				list-style: none;
+				display: inline-block;
+				font-weight: normal;
+				font-size: 14px;
+				text-align: right;
+				margin-left: 10px;
+				border-right: 1px solid #cad5d5;
+				padding-right: 10px;
+				i{
+					margin-right: 5px;
+					display: inline-block;
+					width: 16px;
+					height: 16px;
+					vertical-align: top;
+				}
+				&:nth-child(1){
+					i{
+						background: url(../img/store.png) no-repeat 50% 50%;
+					}
+				}
+				&:nth-child(2){
+					i{
+						background: url(../img/speech.png) no-repeat 50% 50%;
+					}
+				}
+				&:nth-child(3){
+					i{
+						background: url(../img/facebook.png) no-repeat 50% 50%;
+					}
+				}
+				&:nth-child(4){
+					i{
+						background: url(../img/twitter.png) no-repeat 50% 50%;
+					}
+				}
+		}
+		
+	}
+		h3{
+			font-weight: normal;
+			font-size: 14px;
+			margin: 10px 0px;
+			color: #000;
+		}
+	}
 }
 .nav__menu{
 	border-bottom: 1px solid grey;
@@ -21,6 +72,43 @@ html,body{
 	display: grid;
 	width: 1160px;
 	margin: 0 auto;
-	height: 100px;
-	background-color: #ff7800;
+	grid-template-columns: 1fr 2fr 1fr;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	align-items: center;
+	input{
+		width: 80%;
+		border-radius: 15px 0px 0px 15px;
+		height: 30px;
+		border: 2px solid #fed700;
+	}
+	button{
+		background-color: #fed700;
+		height: 36px;
+		border: 1px solid #fed700;
+		border-radius: 0px 15px 15px 0px;
+		vertical-align: bottom;
+		i{
+			background: url(../img/search.png) no-repeat 50% 50%;
+			display: inline-block;
+			width: 35px;
+			height: 24px;
+		}
+	}
 }
+.logo{
+	img{
+		width: 176px;
+		height: auto;
+	}
+}
+.store__icons{
+	ul{
+		li{
+			list-style: none;
+			display: inline-block;
+			margin-left: 25px;
+		}
+	}
+}
+// End Top Section
