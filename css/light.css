@@ -24,4 +24,8 @@ html, body { box-sizing: border-box; margin: 0 auto; }
 
 .store__icons ul li { list-style: none; display: inline-block; margin-left: 25px; }
 
+.top__content { background: #f8f8f8; }
+
+.store__content { width: 1160px; margin: 0 auto; display: grid; height: 300px; }
+
 /*# sourceMappingURL=light.css.map */
