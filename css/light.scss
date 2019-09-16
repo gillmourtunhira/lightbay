@@ -1,0 +1,26 @@
+html,body{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+// Top Section CSS
+.top__header{
+	display: grid;
+}
+.top__navigation{
+	display: grid;
+	width: 1160px;
+	margin: 0 auto;
+	height: 100px;
+	background-color: #3a99ff;
+}
+.nav__menu{
+	border-bottom: 1px solid grey;
+}
+.logo__strip{
+	display: grid;
+	width: 1160px;
+	margin: 0 auto;
+	height: 100px;
+	background-color: #ff7800;
+}
