@@ -236,6 +236,7 @@ html,body{
 
 // Products Middle Tier CSS
 .middle__products--tier{
+	margin-bottom: 10px;
 }
 .middle__products_wrapper{
 	width: 1160px;
@@ -246,7 +247,7 @@ html,body{
 }
 .left__featured_products{
 	width: 100%;
-	height: 600px;
+	// height: 600px;
 	// background: orange;
 	font-family: Trebuchet MS;
 	border: 2px solid #fed700;
@@ -260,9 +261,22 @@ html,body{
 	}
 }
 .right__featured_products{
+	display: grid;
 	width: 100%;
-	height: 600px;
-	background: lime;
+	grid-template-columns: repeat(3, 1fr);
+	// border-top: 1px solid #e7e5e4;
+	grid-gap: 5px;
+		h5{
+			font-size: 16px;
+			font-weight: bold;
+			margin: 8px 0;
+			color: #0062bd;
+		}
+		h6{
+			font-size: 12px;
+			color: gray;
+			margin: 0px;
+		}
 }
 .savings{
 	width: 76px;
@@ -303,4 +317,157 @@ header {
 		height: auto;
 	}
 }
+.left__featured_activity{
+	text-align: center;
+	span{
+		text-decoration: line-through;
+		font-size: 20px;
+		color: #828282;
+	}
+	h2{
+		margin-right: 5px;
+		color: red;
+		font-size: 30px;
+		font-weight: normal;
+		margin-top: 0px;
+	}
+	h4{
+		color: #0062c9;
+		font-size: 18px;
+	}
+}
+.progress__bar{
+	background-color: #eee;
+	width: 80%;
+	height: 20px;
+	margin: 0 auto;
+	border-radius: .571em;
+	span{
+		width: 30%;
+		display: block;
+		text-indent: -99999px;
+		height: 100%;
+		border-radius: .571em;
+		background-color: #fed700;
+	}
+}
+.deadline__count{
+	margin: 10px;
+	text-align: center;
+}
+.days__count {
+    margin: 20px;
+}
+.count__days {
+    background: #e6e6e6;
+	padding: 5px 25px;
+	display: inline-grid;
+	font-size: 30px;
+	text-align: center;
+	color: #383838;
+	border-radius: 10%;
+}
+.days__tag{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.product__inner{
+	padding: 10px;
+	font-family: Trebuchet MS;
+	transition: box-shadow .3s;
+	border-right: 1px solid #eaeaea;
+	&:hover{
+		box-shadow: 0 0 11px grey;
+	}
+	&:nth-child(3){ 
+		border: none;
+	}
+	&:nth-child(6){
+		border: none;
+	}
+}
+.product__inner_image{
+	img{
+		width: 90%;
+		height: auto;
+	}
+}
+.product__inner_footer{
+
+}
+.product__price{
+	span{
+		position: relative;
+		float: right;
+		top: 15px;
+	}
+	h3{
+		width: 70%;
+		float: left;
+	}
+	img{
+		width: 24px;
+		height: auto;
+		filter: grayscale(100%);
+	}
+}
 // End Products Middle Tier css
+
+// Ad Middle Section
+
+.ad__middle_top{
+	background: #f9f9f9;
+	padding: 20px;
+	margin: 20px 0;
+}
+.ad__middle_wrapper{
+	text-align: center;
+	img{
+		background: orange;
+		width: 970px;
+		height: 250px;
+	}
+}
+
+// End Ad Middle Section
+
+// Lower Middle Tier 
+.lower__middle_tier{}
+.lower__middle_wrapper{
+	width: 1160px;
+	margin: 0px auto;
+	font-family: Trebuchet MS;
+	header{
+		border-bottom: 1px solid orange;
+		padding: 10px 0;
+		font-size: 24px;
+		font-weight: normal;
+	}
+}
+.best__sells_container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.best__sell_product{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2px;
+}
+.best__product--image{
+	img{
+		width: 80%;
+		height: auto;
+	}
+}
+.details__top{
+	h3{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	h4{
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+// End Lower Middle Tier 
