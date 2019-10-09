@@ -112,15 +112,38 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .ad__middle_wrapper img { background: orange; width: 970px; height: 250px; }
 
 .lower__middle_wrapper { width: 1160px; margin: 0px auto; font-family: Trebuchet MS; }
-.lower__middle_wrapper header { border-bottom: 1px solid orange; padding: 10px 0; font-size: 24px; font-weight: normal; }
+.lower__middle_wrapper header { padding: 0px 0; border-bottom: 1px solid #dadada; margin-bottom: 1em; }
+.lower__middle_wrapper header h2 { font-size: 24px; font-weight: normal; margin: 0; content: ' '; border-bottom: 1px solid transparent; display: block; bottom: -1px; width: 11%; border-color: #fed700; }
 
-.best__sells_container { display: grid; grid-template-columns: repeat(3, 1fr); }
+.best__sells_container { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px; }
 
-.best__sell_product { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px; }
+.best__sell_product { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px; border-right: 1px solid #dadada; margin: 11px; transition: ease-in .2s; transition: box-shadow .2s; }
+.best__sell_product:nth-child(3) { border: none; }
+.best__sell_product:nth-child(6) { border: none; }
+.best__sell_product:hover { box-shadow: 0 0 11px grey; background: #fed700; }
 
+.best__product--image { text-align: center; }
 .best__product--image img { width: 80%; height: auto; }
 
-.details__top h3 { font-size: 16px; font-weight: bold; }
-.details__top h4 { font-size: 14px; font-weight: normal; }
+.details__top h3 { font-size: 18px; font-weight: bold; color: #0062bd; margin: 10px 0; }
+.details__top h4 { font-size: 14px; font-weight: normal; color: #878787; margin-bottom: 0px; }
+
+.details__bottom h5 { font-size: 20px; width: 70%; float: left; margin: 5px 0; }
+.details__bottom i { background-image: url(../img/bag.png); background-repeat: no-repeat; background-color: #dedede; background-position: center; background-blend-mode: overlay; width: 24px; height: 24px; display: inline-block; margin: 2px 0; border-radius: 30px; padding: 7px; bottom: 5px; position: relative; }
+
+.signup__tier { margin: 20px 0; background: #fed700; padding: 10px; }
+
+.signup__ribbon { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1.5fr 1.8fr; grid-gap: 5px; font-family: Trebuchet MS; padding: 5px; }
+.signup__ribbon span { vertical-align: super; }
+
+.signup__title { font-size: 21px; font-weight: lighter; }
+.signup__title i { background: url(../img/plane.png) no-repeat; width: 32px; height: 32px; display: inline-block; margin-right: 25px; }
+
+.signup__discount { position: relative; top: 10px; }
+
+.signup__form form input { width: 75%; height: 30px; border-radius: 10px 0 0px 10px; border: none; background: #fff; padding: 5px 0 3px 20px; font-family: Trebuchet MS; font-size: 16px; }
+.signup__form form button { width: 20%; height: 38px; border-radius: 0px 10px 10px 0; background: #333e48; border: none; font-size: 15px; color: #fff; cursor: pointer; }
+
+.footer__tier_wrapper footer { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 1fr 2fr 1fr; grid-gap: 5px; }
 
 /*# sourceMappingURL=light.css.map */
