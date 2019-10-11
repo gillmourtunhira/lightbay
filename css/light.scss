@@ -115,7 +115,8 @@ html,body{
 // Slider Section
 
 .top__content{
-	background: #f8f8f8;
+	background: url(../img/background.jpg) no-repeat 50% 50% #f8f8f8;
+	// background: #f8f8f8;
 }
 .store__content{
 	width: 1160px;
@@ -477,7 +478,7 @@ header {
 	}
 	&:hover{
 		box-shadow: 0 0 11px grey;
-		background: #f78f3c;
+		// background: #f78f3c;
 	}
 }
 .best__product--image{
@@ -587,13 +588,14 @@ header {
 
 // Footer CSS
 
-.footer__tier_wrapper{
+.footer__wrapper--tier{
+	margin: 10px 0;
 	footer{
 		width: 1160px;
 		margin:0 auto;
 		display: grid;
-		grid-template-columns: 1.5fr 1.5fr 1fr;
-		grid-gap: 5px;
+		grid-template-columns: 2.5fr 2.5fr 1fr;
+		grid-gap: 40px;
 	}
 }
 .bottom__details{
@@ -630,5 +632,66 @@ header {
 	h5{
 		margin: 2px 0;
 	}
+}
+.bottom__social_icons{
+	ul{
+		padding-left: 0;
+		li{
+			list-style: none;
+			margin-right: 30px;
+			width: 24px;
+			display: inline-block;
+		}
+	}
+	img{
+		width: 100%;
+		height: auto;
+		filter: grayscale(100%);
+		transition: ease-out .2s;
+		&:hover{
+			filter: grayscale(0%);
+			cursor: pointer;
+		}
+	}
+}
+.fast__items{
+	font-family: Trebuchet MS;
+	h3{
+		margin-top: 0px;
+	}
+}
+.fast__columns_one{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5px;
+	div{
+		color: #333e48;
+		margin: 2px 0;
+	}
+}
+.customer__service{
+	font-family: Trebuchet MS;
+	h3{
+		margin-top: 0px;
+	}
+}
+.customer__service--items{
+	div{
+		color: #333e48;
+		margin: 5px 0;
+	}
+}
+.copyright__wrapper{
+	margin-top: 5px;
+	background: #eaeaea;
+}
+.copyright__wrapper--tier{
+	width: 1160px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	font-family: Trebuchet MS;
+	padding: 10px 0;
 }
 // End Footer CSS
