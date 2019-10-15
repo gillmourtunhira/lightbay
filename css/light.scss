@@ -80,12 +80,12 @@ html,body{
 		width: 80%;
 		border-radius: 15px 0px 0px 15px;
 		height: 30px;
-		border: 2px solid #1F3044;
+		border: 2px solid #111F2F;
 	}
 	button{
-		background-color: #1F3044;
+		background-color: #111F2F;
 		height: 36px;
-		border: 1px solid #1F3044;
+		border: 1px solid #111F2F;
 		border-radius: 0px 15px 15px 0px;
 		vertical-align: bottom;
 		i{
@@ -107,7 +107,19 @@ html,body{
 		li{
 			list-style: none;
 			display: inline-block;
-			margin-left: 25px;
+			margin-left: 28px;
+			&:last-child{
+				color: white;
+				vertical-align: top;
+				background: #111F2F;
+				padding: 5px;
+				font-family: Trebuchet MS;
+				font-size: 14px;
+				border-bottom: 2px solid #f7750e;
+				text-transform: uppercase;
+				border-radius: 2px;
+				cursor: pointer;
+			}
 		}
 	}
 }
@@ -142,7 +154,7 @@ html,body{
 			border-bottom: 1px solid #ddd;
 			&:nth-child(1){
 				font-weight: bold;
-				background-color: #f78f3c;
+				background-color: #f7750e;
 			}
 			&:nth-child(2){
 				font-weight: bold;
@@ -154,7 +166,7 @@ html,body{
 	}
 }
 .store__slider{
-	background: #f78f3c;
+	background: #f7750e;
 	width: 100%;
 	height: auto;
 }
@@ -195,7 +207,7 @@ html,body{
 		top: 20px;
 		width: 1px;
 		height: 80%;
-		background: #f78f3c;
+		background: #f7750e;
 		margin-right: 10px;
 	}
 }
@@ -219,7 +231,7 @@ html,body{
 .call__action {
     font-weight: bold;
     &::after{
-    	background-color: #1F3044;
+    	background-color: #111F2F;
 		content: ">";
 		padding: 5px;
 		border-radius: 50%;
@@ -249,9 +261,9 @@ html,body{
 .left__featured_products{
 	width: 100%;
 	// height: 600px;
-	// background: #f78f3c;
+	// background: #f7750e;
 	font-family: Trebuchet MS;
-	border: 2px solid #f78f3c;
+	border: 2px solid #f7750e;
 	border-radius: 21px;
 	h2{
 		line-height: 1.6em;
@@ -259,7 +271,7 @@ html,body{
 		padding-bottom: .4em;
 		position: relative;
 		margin-bottom: 0;
-		color: #1F3044;
+		color: #111F2F;
 	}
 }
 .right__featured_products{
@@ -285,7 +297,7 @@ html,body{
 	height: 76px;
 	border-radius: 80px;
 	color: #000;
-	background: #f78f3c;
+	background: #f7750e;
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: 700;
@@ -350,7 +362,7 @@ header {
 		text-indent: -99999px;
 		height: 100%;
 		border-radius: .571em;
-		background-color: #f78f3c;
+		background-color: #f7750e;
 	}
 }
 .deadline__count{
@@ -426,7 +438,7 @@ header {
 .ad__middle_wrapper{
 	text-align: center;
 	img{
-		background: #f78f3c;
+		background: #f7750e;
 		width: 970px;
 		height: 250px;
 	}
@@ -453,7 +465,7 @@ header {
 			display: block;
 			bottom: -1px;
 			width: 11%;
-			border-color: #f78f3c;
+			border-color: #f7750e;
 		}
 	}
 }
@@ -478,7 +490,7 @@ header {
 	}
 	&:hover{
 		box-shadow: 0 0 11px grey;
-		// background: #f78f3c;
+		// background: #f7750e;
 	}
 }
 .best__product--image{
@@ -530,7 +542,7 @@ header {
 // SignUp Tier CSS
 .signup__tier{
 	margin: 20px 0;
-	background: #f78f3c;
+	background: #f7750e;
 	padding: 10px;
 }
 .signup__ribbon{
@@ -576,7 +588,7 @@ header {
 			width: 20%;
 			height: 38px;
 			border-radius: 0px 20px 20px 0;
-			background: #1f3044;
+			background: #111F2F;
 			border: none;
 			font-size: 15px;
 			color: #fff;

@@ -16,13 +16,14 @@ html, body { box-sizing: border-box; margin: 0 auto; }
 .nav__menu { border-bottom: 1px solid grey; }
 
 .logo__strip { display: grid; width: 1160px; margin: 0 auto; grid-template-columns: 1fr 2fr 1fr; margin-top: 25px; margin-bottom: 5px; align-items: center; }
-.logo__strip input { width: 80%; border-radius: 15px 0px 0px 15px; height: 30px; border: 2px solid #1F3044; }
-.logo__strip button { background-color: #1F3044; height: 36px; border: 1px solid #1F3044; border-radius: 0px 15px 15px 0px; vertical-align: bottom; }
+.logo__strip input { width: 80%; border-radius: 15px 0px 0px 15px; height: 30px; border: 2px solid #111F2F; }
+.logo__strip button { background-color: #111F2F; height: 36px; border: 1px solid #111F2F; border-radius: 0px 15px 15px 0px; vertical-align: bottom; }
 .logo__strip button i { background: url(../img/search.png) no-repeat 50% 50%; display: inline-block; width: 35px; height: 24px; }
 
 .logo img { width: 176px; height: auto; }
 
-.store__icons ul li { list-style: none; display: inline-block; margin-left: 25px; }
+.store__icons ul li { list-style: none; display: inline-block; margin-left: 28px; }
+.store__icons ul li:last-child { color: white; vertical-align: top; background: #111F2F; padding: 5px; font-family: Trebuchet MS; font-size: 14px; border-bottom: 2px solid #f7750e; text-transform: uppercase; border-radius: 2px; cursor: pointer; }
 
 .top__content { background: url(../img/background.jpg) no-repeat 50% 50% #f8f8f8; }
 
@@ -31,11 +32,11 @@ html, body { box-sizing: border-box; margin: 0 auto; }
 .store__list { background: #fff; width: 100%; height: auto; border-radius: 0px 0px 5px 5px; }
 .store__list ul { padding-left: 2px; margin-top: 0; }
 .store__list ul li { list-style: none; font-family: Trebuchet MS; padding: 10px; border-bottom: 1px solid #ddd; }
-.store__list ul li:nth-child(1) { font-weight: bold; background-color: #f78f3c; }
+.store__list ul li:nth-child(1) { font-weight: bold; background-color: #f7750e; }
 .store__list ul li:nth-child(2) { font-weight: bold; }
 .store__list ul li:nth-child(3) { font-weight: bold; }
 
-.store__slider { background: #f78f3c; width: 100%; height: auto; }
+.store__slider { background: #f7750e; width: 100%; height: auto; }
 
 .top__tier { margin-bottom: 30px; }
 
@@ -47,7 +48,7 @@ html, body { box-sizing: border-box; margin: 0 auto; }
 
 .featured__product--image { position: relative; }
 .featured__product--image img { width: 75%; height: auto; }
-.featured__product--image::after { content: ""; position: absolute; right: 0; z-index: 100; top: 20px; width: 1px; height: 80%; background: #f78f3c; margin-right: 10px; }
+.featured__product--image::after { content: ""; position: absolute; right: 0; z-index: 100; top: 20px; width: 1px; height: 80%; background: #f7750e; margin-right: 10px; }
 
 .featured__product--details { font-family: Trebuchet MS; overflow-wrap: break-word; }
 
@@ -55,20 +56,20 @@ html, body { box-sizing: border-box; margin: 0 auto; }
 .product__title h5 { margin-top: 0; font-size: 16px; line-height: 23px; margin-bottom: 15px; }
 
 .call__action { font-weight: bold; }
-.call__action::after { background-color: #1F3044; content: ">"; padding: 5px; border-radius: 50%; width: 15px; height: 15px; display: inline-block; text-align: center; color: #fff; margin-left: 5px; font-size: 14px; }
+.call__action::after { background-color: #111F2F; content: ">"; padding: 5px; border-radius: 50%; width: 15px; height: 15px; display: inline-block; text-align: center; color: #fff; margin-left: 5px; font-size: 14px; }
 
 .middle__products--tier { margin-bottom: 10px; }
 
 .middle__products_wrapper { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 1fr 2fr; grid-gap: 10px; }
 
-.left__featured_products { width: 100%; font-family: Trebuchet MS; border: 2px solid #f78f3c; border-radius: 21px; }
-.left__featured_products h2 { line-height: 1.6em; display: inline-block; padding-bottom: .4em; position: relative; margin-bottom: 0; color: #1F3044; }
+.left__featured_products { width: 100%; font-family: Trebuchet MS; border: 2px solid #f7750e; border-radius: 21px; }
+.left__featured_products h2 { line-height: 1.6em; display: inline-block; padding-bottom: .4em; position: relative; margin-bottom: 0; color: #111F2F; }
 
 .right__featured_products { display: grid; width: 100%; grid-template-columns: repeat(3, 1fr); grid-gap: 5px; }
 .right__featured_products h5 { font-size: 16px; font-weight: bold; margin: 8px 0; color: #0062bd; }
 .right__featured_products h6 { font-size: 12px; color: gray; margin: 0px; }
 
-.savings { width: 76px; height: 76px; border-radius: 80px; color: #000; background: #f78f3c; font-size: 18px; line-height: 18px; font-weight: 700; float: right; position: relative; }
+.savings { width: 76px; height: 76px; border-radius: 80px; color: #000; background: #f7750e; font-size: 18px; line-height: 18px; font-weight: 700; float: right; position: relative; }
 
 header { display: flex; justify-content: space-between; padding: 22px; }
 
@@ -85,7 +86,7 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .left__featured_activity h4 { color: #0062c9; font-size: 18px; }
 
 .progress__bar { background-color: #eee; width: 80%; height: 20px; margin: 0 auto; border-radius: .571em; }
-.progress__bar span { width: 30%; display: block; text-indent: -99999px; height: 100%; border-radius: .571em; background-color: #f78f3c; }
+.progress__bar span { width: 30%; display: block; text-indent: -99999px; height: 100%; border-radius: .571em; background-color: #f7750e; }
 
 .deadline__count { margin: 10px; text-align: center; }
 
@@ -109,11 +110,11 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .ad__middle_top { background: #f9f9f9; padding: 20px; margin: 20px 0; }
 
 .ad__middle_wrapper { text-align: center; }
-.ad__middle_wrapper img { background: #f78f3c; width: 970px; height: 250px; }
+.ad__middle_wrapper img { background: #f7750e; width: 970px; height: 250px; }
 
 .lower__middle_wrapper { width: 1160px; margin: 0px auto; font-family: Trebuchet MS; }
 .lower__middle_wrapper header { padding: 0px 0; border-bottom: 1px solid #dadada; margin-bottom: 1em; }
-.lower__middle_wrapper header h2 { font-size: 24px; font-weight: normal; margin: 0; content: ' '; border-bottom: 1px solid transparent; display: block; bottom: -1px; width: 11%; border-color: #f78f3c; }
+.lower__middle_wrapper header h2 { font-size: 24px; font-weight: normal; margin: 0; content: ' '; border-bottom: 1px solid transparent; display: block; bottom: -1px; width: 11%; border-color: #f7750e; }
 
 .best__sells_container { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px; }
 
@@ -131,7 +132,7 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .details__bottom h5 { font-size: 20px; width: 70%; float: left; margin: 5px 0; }
 .details__bottom i { background-image: url(../img/bag.png); background-repeat: no-repeat; background-color: #dedede; background-position: center; background-blend-mode: overlay; width: 24px; height: 24px; display: inline-block; margin: 2px 0; border-radius: 30px; padding: 7px; bottom: 5px; position: relative; }
 
-.signup__tier { margin: 20px 0; background: #f78f3c; padding: 10px; }
+.signup__tier { margin: 20px 0; background: #f7750e; padding: 10px; }
 
 .signup__ribbon { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1.5fr 1.8fr; grid-gap: 5px; font-family: Trebuchet MS; padding: 5px; }
 .signup__ribbon span { vertical-align: super; }
@@ -142,7 +143,7 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .signup__discount { position: relative; top: 10px; }
 
 .signup__form form input { width: 75%; height: 30px; border-radius: 20px 0 0px 20px; border: none; background: #fff; padding: 5px 0 3px 20px; font-family: Trebuchet MS; font-size: 16px; }
-.signup__form form button { width: 20%; height: 38px; border-radius: 0px 20px 20px 0; background: #1f3044; border: none; font-size: 15px; color: #fff; cursor: pointer; }
+.signup__form form button { width: 20%; height: 38px; border-radius: 0px 20px 20px 0; background: #111F2F; border: none; font-size: 15px; color: #fff; cursor: pointer; }
 
 .footer__wrapper--tier { margin: 10px 0; }
 .footer__wrapper--tier footer { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 2.5fr 2.5fr 1fr; grid-gap: 40px; }
