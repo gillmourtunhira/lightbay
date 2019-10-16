@@ -826,6 +826,36 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 5px;
+	&--download{
+		button{
+			padding: 15px;
+			border: none;
+			background: #111F2F;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: Trebuchet MS;
+			font-weight: bold;
+			border-radius: 50px;
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
+	&--form{
+		button{
+			padding: 15px;
+			border: none;
+			background: #f7750e;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: Trebuchet MS;
+			font-weight: bold;
+			border-radius: 50px;
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
 }
 
 // End Page Products CSS
