@@ -707,3 +707,125 @@ header {
 	padding: 10px 0;
 }
 // End Footer CSS
+
+// Page Products CSS 
+
+.products__tier{}
+.breadcrumbs__strip{
+	ul{
+		font-family: Trebuchet MS;
+		padding-left: 0px;
+		// margin-top: 0px;
+		li{
+			list-style: none;
+			display: inline-block;
+			&::after{
+				content: '>';
+				margin: 0 10px;
+				font-weight: bold;
+			}
+			&:last-child{
+				&::after{
+					content: '';
+					border-bottom: 2px solid orange;
+					display: block;
+					width: 50%;
+					margin: 0;
+					padding-top: 5px;
+				}
+			}
+		}
+	}
+}
+.products__tier--wrapper{
+	width: 1160px;
+	margin: 0 auto;
+	display: grid;
+	// grid-template-rows: 1fr 1fr;
+}
+.products__columns{
+	display: grid;
+	grid-template-columns: 0.7fr 2.5fr;
+	grid-gap: 5px;
+	margin: 20px 0;
+	&--left{
+		// background: red;
+		ul{
+			font-family: Trebuchet MS;
+			padding-left: 0px;
+			margin-top: 0px;
+			border: 2px solid #ececec;
+			border-radius: 6px;
+			li{
+				list-style: none;
+				padding: 10px;
+				border-top: 1px solid #ddd;
+				&:nth-child(1){
+					font-weight: bold;
+					border: none;
+				}
+				&:hover{
+					cursor: pointer;
+					font-weight: bold;
+				}
+				span{
+					color: #acacac;
+				}
+			}
+		}
+	}
+	&--right{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 5px;
+	}
+}
+.product__image{
+	text-align: center;
+	img{
+		width: 65%;
+		height: auto;
+		// transition: transform .2s;
+		transition: transform .5s ease;
+		&:hover{
+			transform: scale(1.5);
+		}
+	}
+}
+.product__details{
+	font-family: Trebuchet MS;
+	h4{
+		font-size: 24px;
+		margin: 0;
+		font-weight: lighter;
+	}
+	h5{
+		margin: 0px 0px 2px 0px;
+		color: #878787;
+	}
+	h6{
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: lighter;
+	}
+	span{
+		color: green;
+		font-weight: bold;
+	}
+	&--specs{
+		margin: 10px 0;
+		border-top: 1px solid #f6903c;
+		h5{
+			color: #000;
+			font-size: 40px;
+			margin: 30px 0;
+		}
+	}
+}
+.product__action{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+// End Page Products CSS

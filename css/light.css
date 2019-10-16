@@ -179,4 +179,33 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 
 .copyright__wrapper--tier { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; grid-gap: 10px; font-family: Trebuchet MS; padding: 10px 0; }
 
+.breadcrumbs__strip ul { font-family: Trebuchet MS; padding-left: 0px; }
+.breadcrumbs__strip ul li { list-style: none; display: inline-block; }
+.breadcrumbs__strip ul li::after { content: '>'; margin: 0 10px; font-weight: bold; }
+.breadcrumbs__strip ul li:last-child::after { content: ''; border-bottom: 2px solid orange; display: block; width: 50%; margin: 0; padding-top: 5px; }
+
+.products__tier--wrapper { width: 1160px; margin: 0 auto; display: grid; }
+
+.products__columns { display: grid; grid-template-columns: 0.7fr 2.5fr; grid-gap: 5px; margin: 20px 0; }
+.products__columns--left ul { font-family: Trebuchet MS; padding-left: 0px; margin-top: 0px; border: 2px solid #ececec; border-radius: 6px; }
+.products__columns--left ul li { list-style: none; padding: 10px; border-top: 1px solid #ddd; }
+.products__columns--left ul li:nth-child(1) { font-weight: bold; border: none; }
+.products__columns--left ul li:hover { cursor: pointer; font-weight: bold; }
+.products__columns--left ul li span { color: #acacac; }
+.products__columns--right { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px; }
+
+.product__image { text-align: center; }
+.product__image img { width: 65%; height: auto; transition: transform .5s ease; }
+.product__image img:hover { transform: scale(1.5); }
+
+.product__details { font-family: Trebuchet MS; }
+.product__details h4 { font-size: 24px; margin: 0; font-weight: lighter; }
+.product__details h5 { margin: 0px 0px 2px 0px; color: #878787; }
+.product__details h6 { margin-top: 15px; font-size: 15px; font-weight: lighter; }
+.product__details span { color: green; font-weight: bold; }
+.product__details--specs { margin: 10px 0; border-top: 1px solid #f6903c; }
+.product__details--specs h5 { color: #000; font-size: 40px; margin: 30px 0; }
+
+.product__action { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px; }
+
 /*# sourceMappingURL=light.css.map */
