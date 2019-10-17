@@ -746,7 +746,7 @@ header {
 .products__columns{
 	display: grid;
 	grid-template-columns: 0.7fr 2.5fr;
-	grid-gap: 5px;
+	grid-gap: 20px;
 	margin: 20px 0;
 	&--left{
 		// background: red;
@@ -859,3 +859,113 @@ header {
 }
 
 // End Page Products CSS
+
+// Category Page CSS 
+.latest__heading{
+	border-bottom: 1px solid #dadada;
+	&::after{
+		content: '';
+		border-bottom: 2px solid #f77520;
+		display: block;
+		width: 25%;
+		margin: 0;
+		padding-top: 5px;
+	}
+}
+.latest__products{
+	font-family: Trebuchet MS;
+	h4{
+		font-weight: normal;
+		font-size: 21px;
+	}
+
+	&--item{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 15px;
+		padding-bottom: 10px;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	&--image{
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&--details{
+		h4{
+			font-size: 16px;
+			margin: 10px 0 0 0;
+			font-weight: normal;
+			color: #333e48;
+		}
+		h6{
+			font-size: 18px;
+			margin: 0px;
+		}
+	}
+}
+.star__rating{
+	&::before{
+	content: "\2605\2605\2605\2605\2605";
+	color: #f7750e;
+	font-size: 26px;
+	}
+}
+.category__columns--right{
+
+}
+.category__tier{
+	h5{
+		font-family: Trebuchet MS;
+		margin: 0 0 5px 0;
+		font-size: 24px;
+		font-weight: lighter;
+	}
+	&--wrap{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 10px;
+	}
+}
+.product__item{}
+.product__inner_header{
+	h5{
+		font-size: 16px;
+		font-weight: bold;
+		margin: 8px 0;
+		color: #0062bd;
+	}
+	h6{
+		font-size: 12px;
+		color: grey;
+		margin: 0px;
+	}
+}
+.category__product{
+	&--header{
+		font-family: Trebuchet MS;
+		h5{
+			font-size: 16px;
+			font-weight: bold;
+			margin: 8px 0;
+			color: #0062bd;
+		}
+		h6{
+			font-size: 12px;
+			color: grey;
+			margin: 0px;
+		}
+	}
+	&--body{}
+	&--image{
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&--price{}
+}
+// End Category Page CSS
