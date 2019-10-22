@@ -130,6 +130,7 @@ html,body{
   margin: auto;
   overflow:hidden;
   position: relative;
+  height: 365px;
 }
 .carousel__slide{
   ul{
@@ -824,6 +825,7 @@ header {
 		transition: transform .5s ease;
 		&:hover{
 			transform: scale(1.5);
+			cursor: pointer;
 		}
 	}
 }
@@ -1052,3 +1054,37 @@ header {
 	}
 }
 // End Category Page CSS
+
+// Page CSS 
+.page__tier{
+	border-top: 1px solid #dadada;
+}
+.page__wrapper--tier{
+	width: 1160px;
+	margin: 0 auto;
+}
+.page__content--inner{
+	h3{
+		font-family: Trebuchet MS;
+		text-align: center;
+		font-size: 35px;
+		font-weight: lighter;
+	}
+}
+.entry__content{
+	font-family: Trebuchet MS;
+	color: #333e48;
+	h4{
+		font-size: 28px;
+		font-weight: lighter;
+	}
+	ol{
+		li{
+			line-height: 1.6;
+		}
+	}
+	p{
+		line-height: 1.6;
+	}
+}
+// End Page CSS

@@ -25,7 +25,7 @@ html, body { box-sizing: border-box; margin: 0 auto; }
 .store__icons ul li { list-style: none; display: inline-block; margin-left: 28px; }
 .store__icons ul li:last-child { color: white; vertical-align: top; background: #111F2F; padding: 5px; font-family: Trebuchet MS; font-size: 14px; border-bottom: 2px solid #f7750e; text-transform: uppercase; border-radius: 2px; cursor: pointer; }
 
-.carousel__container { width: 100%; margin: auto; overflow: hidden; position: relative; }
+.carousel__container { width: 100%; margin: auto; overflow: hidden; position: relative; height: 365px; }
 
 .carousel__slide ul { display: flex; width: 100%; height: auto; padding: 0; margin: 0; }
 .carousel__slide ul li { list-style: none; }
@@ -205,7 +205,7 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 
 .product__image { text-align: center; }
 .product__image img { width: 65%; height: auto; transition: transform .5s ease; }
-.product__image img:hover { transform: scale(1.5); }
+.product__image img:hover { transform: scale(1.5); cursor: pointer; }
 
 .product__details { font-family: Trebuchet MS; }
 .product__details h4 { font-size: 24px; margin: 0; font-weight: lighter; }
@@ -257,5 +257,16 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .pagination__section ul li { list-style: none; padding: 5px; width: 24px; height: 24px; font-size: 20px; font-family: Trebuchet MS; color: grey; }
 .pagination__section ul li:nth-child(1) { background: #f7750e; color: #fff; border-radius: 24px; font-weight: bold; }
 .pagination__section ul li:hover { cursor: pointer; }
+
+.page__tier { border-top: 1px solid #dadada; }
+
+.page__wrapper--tier { width: 1160px; margin: 0 auto; }
+
+.page__content--inner h3 { font-family: Trebuchet MS; text-align: center; font-size: 35px; font-weight: lighter; }
+
+.entry__content { font-family: Trebuchet MS; color: #333e48; }
+.entry__content h4 { font-size: 28px; font-weight: lighter; }
+.entry__content ol li { line-height: 1.6; }
+.entry__content p { line-height: 1.6; }
 
 /*# sourceMappingURL=light.css.map */
