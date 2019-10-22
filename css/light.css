@@ -241,7 +241,7 @@ header { display: flex; justify-content: space-between; padding: 22px; }
 .category__product--price { font-family: Trebuchet MS; }
 .category__product--price h4 { float: left; width: 70%; font-size: 20px; margin: 0px; }
 .category__product--price span { position: relative; top: 4px; }
-.category__product--price img { width: 10%; height: auto; }
+.category__product--price img { width: 14%; height: auto; float: right; opacity: 0.2; }
 
 .pagination__section { text-align: center; width: 100%; margin: 0 auto; margin-top: 15px; }
 .pagination__section ul { display: inline-flex; }
