@@ -125,6 +125,50 @@ html,body{
 }
 
 // Slider Section
+.carousel__container{
+  width: 100%;
+  margin: auto;
+  overflow:hidden;
+  position: relative;
+}
+.carousel__slide{
+  ul{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+	margin: 0;
+    li{
+      list-style: none;
+      img{}
+    }
+  }
+}
+#prevBtn{
+  background: url(../img/left.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  left: 5%;
+  opacity: 0.3;
+}
+#nextBtn{
+  background: url(../img/right2.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  right: 5%;
+  opacity: 0.3;
+}
+
 
 .top__content{
 	background: url(../img/background.jpg) no-repeat 50% 50% #f8f8f8;
