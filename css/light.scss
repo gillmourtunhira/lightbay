@@ -140,7 +140,6 @@ html,body{
 	margin: 0;
     li{
       list-style: none;
-      img{}
     }
   }
 }
@@ -451,9 +450,6 @@ header {
 		height: auto;
 	}
 }
-.product__inner_footer{
-
-}
 .product__price{
 	span{
 		position: relative;
@@ -491,7 +487,6 @@ header {
 // End Ad Middle Section
 
 // Lower Middle Tier 
-.lower__middle_tier{}
 .lower__middle_wrapper{
 	width: 1160px;
 	margin: 0px auto;
@@ -664,9 +659,6 @@ header {
 		height: auto;
 	}
 }
-.bottom__logo{
-
-}
 .bottom__enquiry{
 	display: grid;
 	grid-template-columns: 0.5fr 1.5fr;
@@ -754,7 +746,6 @@ header {
 
 // Page Products CSS 
 
-.products__tier{}
 .breadcrumbs__strip{
 	ul{
 		font-family: Trebuchet MS;
@@ -958,9 +949,6 @@ header {
 	font-size: 26px;
 	}
 }
-.category__columns--right{
-
-}
 .category__tier{
 	h5{
 		font-family: Trebuchet MS;
@@ -974,7 +962,6 @@ header {
 		grid-gap: 10px;
 	}
 }
-.product__item{}
 .product__inner_header{
 	h5{
 		font-size: 16px;
@@ -1010,7 +997,6 @@ header {
 			margin: 0px;
 		}
 	}
-	&--body{}
 	&--image{
 		text-align: center;
 		img{
