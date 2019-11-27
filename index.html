@@ -10,6 +10,61 @@
     </head>
     <body>
     	<div class="light__wrapper">
+            <!-- Bag Modal -->
+            <div class="wrapper">
+                <section class="bag__container">
+                  <div class="bag__wrapper">
+                    <h5>Shopping Cart</h5>
+                    <div class="bag__wrapper--tier">
+                      <div class="bag__item">
+                        <img src="img/led.png" alt="">
+                        <h5 class="item__title">LED Floodlight XD30 <br /> <span>#23481</span></h5>
+                        <div class="bag__action">
+                          <form>
+                            <i class="minus" for="minus">-</i>
+                            <input class="inputCount" type="text" name="itemCount" value="1">
+                            <i class="increase" for="add">+</i>
+                          </form>
+                        </div>
+                        <div class="item__price">
+                          <h5 class="price">2500</h5>
+                        </div>
+                        <a href="#">X</a>
+                      </div>
+                      <div class="bag__item">
+                        <img src="img/led.png" alt="">
+                        <h5 class="item__title">LED Floodlight XD30 LED Floodlight XD30LEDFloodlight XD30 LED Floodlight XD30 <br /> <span>#23481</span></h5>
+                        <div class="bag__action">
+                          <form>
+                            <i class="minus" for="minus">-</i>
+                            <input class="inputCount" type="text" name="itemCount" value="1">
+                            <i class="increase" for="add">+</i>
+                          </form>
+                        </div>
+                        <div class="item__price">
+                          <h5 class="price">2500</h5>
+                        </div>
+                        <a href="#">X</a>
+                      </div>
+                    </div>
+                    <div class="bag__totals">
+                      <div class="items__total--sub">
+                        <h5>Subtotal</h5><span>R2,500</span>
+                      </div>
+                      <div class="items__total--shipping">
+                        <h5>Shipping</h5><span>--</span>
+                      </div>
+                      <div class="items__total--total">
+                        <h5>Total</h5><span class="cart__total"></span>
+                      </div>
+                      <div class="items__total--button">
+                        <button>Send your Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+            </div>
+            <!-- End Bag Modal -->
     		<!-- Section Top Navigation -->
     		<section>
     		<div class="top__header">
@@ -37,11 +92,16 @@
     					</form>
     				</div>
     				<div class="store__icons">
-    					<ul>
-    						<li><img src="img/heart.png"></li>
-    						<li><img src="img/bag.png"></li>
-                            <li>How to Order</li>
-    					</ul>
+    					<div class="favourite__items">
+                            <img src="img/heart.png">
+                        </div>
+                        <div class="cart__img">
+                            <img class="cart__get" src="img/bag.png">
+                            <span class="cart__count"></span>
+                        </div>
+                        <div class="how__to">
+                            <h5>How to Order</h5>
+                        </div>
     				</div>
     			</div>
     		</div>
@@ -166,7 +226,7 @@
                                     <div class="product__inner_image">
                                         <img src="img/lugstar.png">
                                     </div>
-                                    <div class="product__price"> <h3>R2.500</h3> <span><img src="img/right.png"></span></div>
+                                    <div class="product__price"><h3>R2.500</h3> <span><img src="img/right.png"></span></div>
                                 </div>
                             </div>
                             <div class="product__inner">
@@ -178,7 +238,7 @@
                                     <div class="product__inner_image">
                                         <img src="img/medica.png">
                                     </div>
-                                    <div class="product__price"> <h3>R2.500</h3> <span><img src="img/right.png"></span></div>
+                                    <div class="product__price"><h3>R2.500</h3> <span><img src="img/right.png"></span></div>
                                 </div>
                             </div>
                             <div class="product__inner">
@@ -426,6 +486,8 @@
             <!-- End Footer Section -->
 
     	</div>
+        <!-- <script type="text/javascript" src="js/bag.js"></script> -->
+        <script type="text/javascript" src="js/cart.js"></script>
         <script src="js/slideshow.js"></script>
     </body>
 </html>
